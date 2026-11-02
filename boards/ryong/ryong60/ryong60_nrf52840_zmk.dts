@@ -214,7 +214,7 @@ zephyr_udc0: &usbd {
 //   원본 RULE-V3 펌웨어(실제 동작 확인)도 DC/DC 를 쓰지 않았으므로 같은 설정 유지 — LDO 는 인덕터와 무관하게 항상 동작.
 
 // ryong60: 전원 끄기(soft off) 뒤에 칩을 깨우는 키 (기본 Fn, 맨 아래 맨 오른쪽).
-//   key.ryong.com 이 ryong-power.json 으로 만드는 파일 — 사이트의 펌웨어 → 편집 → 깨우기 키에서 바꿈.
+//   keys.ryong.com 이 ryong-power.json 으로 만드는 파일 — 사이트의 펌웨어 → 편집 → 깨우기 키에서 바꿈.
 //   깨어난 뒤에는 ryong60_power.c 가 깨우기 키 + Soft Off 키를 3초 누르고 있는지 확인하고, 아니면 다시 끔.
 //   (15분 무입력 자동 절전은 이와 별개로 아무 키나 누르면 깨어남)
 #include "ryong-wake.dtsi"

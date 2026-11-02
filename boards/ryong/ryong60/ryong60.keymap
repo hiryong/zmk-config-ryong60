@@ -17,7 +17,7 @@
 #include <dt-bindings/zmk/pointing.h>
 #include "ryong-behaviors.dtsi"
 
-// 전원: Fn + 왼쪽 Ctrl 자리에 ZMK 공식 Soft Off. 3초 누르고 떼면 꺼짐(시간은 ryong-behaviors.json → key.ryong.com 설정 탭).
+// 전원: Fn + 왼쪽 Ctrl 자리에 ZMK 공식 Soft Off. 3초 누르고 떼면 꺼짐(시간은 ryong-behaviors.json → keys.ryong.com 설정 탭).
 //   다시 켤 때 = Fn + Soft Off 가 있는 키 3초 (ryong60_power.c). Fn 만 칩을 깨우므로 Fn 은 꼭 같이 눌러야 함.
 //   ZMK Studio 로 Soft Off 를 다른 키에 옮기면 켜는 키도 따라감 (Fn + 그 키).
 

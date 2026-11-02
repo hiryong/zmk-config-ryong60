@@ -8,6 +8,6 @@ config BOARD_ENABLE_DCDC
     depends on BOARD_RYONG60
 
 config RYONG_WAKE_POSITION
-    int "Key position of the wake key (set on key.ryong.com; must match ryong-wake.dtsi)"
+    int "Key position of the wake key (set on keys.ryong.com; must match ryong-wake.dtsi)"
     default 60
     depends on BOARD_RYONG60
